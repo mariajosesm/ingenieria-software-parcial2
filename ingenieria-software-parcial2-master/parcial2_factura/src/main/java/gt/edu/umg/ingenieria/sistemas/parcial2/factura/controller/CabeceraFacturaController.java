@@ -27,5 +27,14 @@ public class CabeceraFacturaController {
         return this.facturaService.registrar(c1);
     }
     
+    @GetMapping("/buscarPorNit")
+    public CabeceraFacturaEntity buscarPorNit(String nit){
+        return this.facturaService.buscarPorNit(nit);
+    }
+    
+    @GetMapping("/imprimir")
+    public String reporte(){
+        return this.facturaService.imprimirFac();
+    }
     
 }
