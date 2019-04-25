@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: gt.edu.umg.ingenieria.sistemas.parcial2.factura.FacturaApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.425 s <<< FAILURE! - in gt.edu.umg.ingenieria.sistemas.parcial2.factura.FacturaApplicationTests
+contextLoads(gt.edu.umg.ingenieria.sistemas.parcial2.factura.FacturaApplicationTests)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'detalleFacturaController': Unsatisfied dependency expressed through field 'detalleService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'gt.edu.umg.ingenieria.sistemas.parcial2.factura.service.DetalleFacturaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'gt.edu.umg.ingenieria.sistemas.parcial2.factura.service.DetalleFacturaService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+

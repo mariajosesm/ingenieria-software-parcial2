@@ -1,0 +1,7 @@
+/home/mariajose/Escritorio/ingenieria-software-parcial2-master/parcial2_factura/src/main/java/gt/edu/umg/ingenieria/sistemas/parcial2/factura/dao/DetalleFacturaRepository.java
+/home/mariajose/Escritorio/ingenieria-software-parcial2-master/parcial2_factura/src/main/java/gt/edu/umg/ingenieria/sistemas/parcial2/factura/FacturaApplication.java
+/home/mariajose/Escritorio/ingenieria-software-parcial2-master/parcial2_factura/src/main/java/gt/edu/umg/ingenieria/sistemas/parcial2/factura/service/FacturaService.java
+/home/mariajose/Escritorio/ingenieria-software-parcial2-master/parcial2_factura/src/main/java/gt/edu/umg/ingenieria/sistemas/parcial2/factura/dao/CabeceraFacturaRepository.java
+/home/mariajose/Escritorio/ingenieria-software-parcial2-master/parcial2_factura/src/main/java/gt/edu/umg/ingenieria/sistemas/parcial2/factura/controller/CabeceraFacturaController.java
+/home/mariajose/Escritorio/ingenieria-software-parcial2-master/parcial2_factura/src/main/java/gt/edu/umg/ingenieria/sistemas/parcial2/factura/controller/DetalleFacturaController.java
+/home/mariajose/Escritorio/ingenieria-software-parcial2-master/parcial2_factura/src/main/java/gt/edu/umg/ingenieria/sistemas/parcial2/factura/service/DetalleFacturaService.java
